@@ -31,7 +31,8 @@ output reg data_clk;
 reg [15:0] clkcnt;
 output reg data_ready;
 
-parameter clk_div=20000; // 
+//parameter clk_div=20000; //
+parameter clk_div=6250; // 
 
 
 always @(posedge clk or posedge clk_rst)
